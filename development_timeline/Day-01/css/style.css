@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'racing one';
+    src: url('RacingSansOne-Regular.ttf');
+}
+
+/* Applies the box sizing on ALL elements */ /* NEED MORE RESEARCH */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    color: #3f3f3f;
+    font: 14px/25px arial; /* 14px font-size 25px line-height */
+}

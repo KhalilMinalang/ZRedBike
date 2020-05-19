@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'racing one';
+    src: url('RacingSansOne-Regular.ttf');
+}
+
+/* Applies the box sizing on ALL elements */ /* NEED MORE RESEARCH */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    color: #3f3f3f;
+    font: 14px/25px arial; /* 14px font-size 25px line-height */
+    overflow: scroll;
+}
+
+header { background: #fff; }
+header .logo img {
+    display: inline-block;
+    margin: 0px auto;
+    padding: 10px;
+    max-width: 210px;
+}
+
+.menu {
+    display: inline-block;
+    float: right;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    padding: 27px 17px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500px;
+    border: 0;
+    text-transform: uppercase;
+    line-height: 1;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.menu li:hover a {
+    background: #f3542d;
+    color: #fff;
+}
+
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 600px;
+}
+
+.slider img {
+    display: block;
+    position: relative;
+    z-index: 1;
+    max-height: 600px;
+    width: 100%;
+    border: 0;
+}
+
+.caption {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    /*background: rgba(0,0,0,0.9);*/
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    padding: 30px 20px 10px; /* 30px-top 20px-left&right 10px-bottom */
+    text-align: center;
+    margin: 0;
+    max-width: none;
+}
+
+.caption h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.caption span { font-size: 24px; }
+
+.content-box { margin-bottom: 30px; }
+.box-1 {
+    min-height: 380px;
+    padding-bottom: 30px;
+}
+
+.header {
+    text-align: center;
+    margin: 60px auto 50px;
+}
+
+.heading {
+    background: #000;
+    border-right: 6px solid #f3542d;
+    height: 60px;
+    color: #fff;
+    display: inline-block;
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 42px;
+    padding: 10px 20px;
+    position: relative;
+    transform: rotate(0deg) scale(1.0) skew(-14deg) translate(0px);
+    transform-style: flat;
+    text-transform: uppercase;
+}
+
+.heading span {
+    display: block;
+    transform: rotate(0deg) scale(1.0) skew(14deg) translate(0px);
+    transform-style: flat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************/
+
+h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0;}
+
+h1, h2 { font-size: 25px; line-height: 25px; }
+h3, h4 { font-size: 20px; line-height: 20px; }
+h5, h6 { font-size: 16px; line-height: 16px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

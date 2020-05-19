@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'racing one';
+    src: url('RacingSansOne-Regular.ttf');
+}
+
+/* Applies the box sizing on ALL elements */ /* NEED MORE RESEARCH */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    color: #3f3f3f;
+    font: 14px/25px arial; /* 14px font-size 25px line-height */
+}
+
+header { background: #fff; }
+header .logo img {
+    display: inline-block;
+    margin: 0px auto;
+    padding: 10px;
+    max-width: 210px;
+}
+
+.menu {
+    display: inline-block;
+    float: right;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    padding: 27px 17px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500px;
+    border: 0;
+    text-transform: uppercase;
+    line-height: 1;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.menu li:hover a {
+    background: #f3542d;
+    color: #fff;
+}

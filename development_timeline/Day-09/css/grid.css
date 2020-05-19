@@ -1,0 +1,39 @@
+.container {
+    width: 1200px;
+    position: relative;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.container:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.container .row:before, .row:after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.container .row:after {
+    clear: both;
+}
+
+.wrap-col { margin:10px; }
+
+.adjust-1, .adjust-2, .adjust-3 { float: left; display: inline-block; }
+
+.adjust-1 { width: 33.33%; }
+.adjust-2 { width: 50%; }
+.adjust-3 { width: 25%; }
+
+
+
